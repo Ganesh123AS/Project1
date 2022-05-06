@@ -1,0 +1,150 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.fb{display: flex; justify-content: space-between;}
+.fa{display: flex; justify-content: space-around;}
+li{list-style: none; display: inline; color: #fff;}
+a{text-decoration: none; }
+
+/*    start of top     */
+
+.top{background: #262626; line-height: 55px; padding:0px 26px;}
+.logo img{ width: 150px;}
+.btn{background: #82b440; padding: 6px 11px; color: #fff; border-radius: 8%;}
+
+/*   start of  link     */
+.link{border-top: 3px solid #FB7500; background: #222527; padding: 12px 16px;}
+.linkl ul{padding-right: 12px;}
+.linkl ul li{padding-left: 10px;}
+.message a:hover{color: #fb7500;}
+.linkl i{color: #fb7500;}
+.linkr ul li{padding-right: 16px;}
+.link li,a{color: #b3b3b3;}
+
+/*   start of menu items     */
+.menu{background: #000; padding: 26px 20px;}
+.menu li a{color: #fff;}
+.menud li{padding-right: 40px;}
+.menur .search i{border-left: 1px solid #fff; padding: 6px 20px;}
+
+/*   start of content     */
+.content{background: url(https://html.tonatheme.com/2022/drvng/assets/images/main-slider/image-1.jpg); background-size: cover; background-repeat: no-repeat; text-align: center;}
+.contentd{padding-bottom: 190px;}
+.content h6{padding-top: 200px; color: #FB7500;}
+.content h1{padding: 40px; padding-bottom: 80px; color: #fff;}
+.content .btn1{padding: 11px 13px; border-radius: 6%;}
+.btn1{background: #FB7500;}
+
+/*   start of skills    */
+.skil{padding: 70px 55px;}
+.skill{ width: 40%;}
+.skill h6{padding-bottom: 36px; padding-top: 15px; position: relative;}
+.skill h6::before{content: ''; border: 1px solid #FB7500; top: 0; left: 0; width: 33px; position: absolute;}
+.skill h1{padding-bottom: 52px; font-size: 46px;}
+.skill h3{padding-bottom: 40px; font-size: 24px; color: #FB7500;}
+.skill p{padding-bottom: 40px; font-size: 16px;}
+.skild h1{font-size: 24px;}
+.skild{position: relative;}
+/*   End of skills        */
+
+/*   start of counter    */
+.counter{background: #F0F0F0;}
+.counterh{padding: 40px 75px;}
+.counter h1{font-size: 40px;}
+.counter p{font-size: 18px;}
+.counter .counterh:hover{background: #fff;}
+
+/*   start of courses    */
+.courses{text-align: center; position: relative;}
+.courses h4::before{content: ''; border: 1px solid #FB7500; top: 22%; left: 47%; width: 67px; position: absolute;}
+.courses h4{padding-top: 46px; padding-bottom: 22px;}
+.courses h1{font-size: 46px; padding-bottom: 33px;}
+
+
+/*   start of offer    */
+.offer{text-align: center;}
+.text{position: relative; border: 1px solid #b3b3b3; width:85%; margin: -4px 33px; padding: 28px;}
+.text img{content: ''; top: -12%; left: 41%; position: absolute; border-radius: 50%;}
+.text h4{padding-top: 30px; padding-bottom: 15px;}
+.text h3{padding-bottom: 19px; color: #FB7500;}
+.text h2{padding-bottom: 30px; font-size: 33px;}
+.text p{padding-bottom: 40px; font-size: 18px;}
+.text a{background: #b3b3b3; border: 1px solid; padding: 12px 43px; color: #000;}
+.text a:hover{background: #FB7500;}
+
+/*   start of Learn    */
+.learn{background: url(https://html.tonatheme.com/2022/drvng/assets/images/background/bg-1.jpg); background-size: cover;}
+.learn{position: relative; margin-top: 85px;}
+.learn::before{content: ''; top: 0; right: 0; bottom: 0; left: 0; background: #000; position: absolute; opacity: 0.9;}
+.learnt{color: #fff; position: relative;}
+.learn-l h6::before{content: ''; border: 1px solid #FB7500; top: 18%; left: 6%; width: 33px; position: absolute;}
+.learn-l{width: 48%; padding: 80px}
+.learn-l h6{padding: 16px 0px; font-size: 16px;}
+.learn-l h1{font-size: 42px;}
+.video{background: #fb7500; width: 21%; content: ''; position: relative; top: 0%; right: 7%; height: 270px;}
+.line{width: 85%; border: 1px solid red; position: relative; margin-left: 75px;}
+.learn-r{position: relative; color: #fff; margin: 0px 85px; padding: 80px 0px;}
+.learnd{width: 20%;}
+
+/*   start of Lesson    */
+.lesson{background: url(https://html.tonatheme.com/2022/drvng/assets/images/background/bg-2.jpg); background-size: cover;}
+.lesson{margin: 65px 96px; text-align: center; color: #fff;}
+.lesson h1{font-size: 40px; padding-top: 82px; padding-bottom: 12px;}
+.lesson p{padding-bottom: 75px;}
+
+
+/*   start of experience  */
+.exp-img{width: 50%;}
+.exp-img img{ max-height: 80%;}
+.exp-inner{width: 50%; margin: 68px 78px;}
+.exp-inner h6{position: relative; padding-bottom: 8px;}
+.exp-inner h6::before{content: ''; border: 1px solid #FB7500; top: -38%; left: 0%; width: 33px; position: absolute;}
+.exp-inner h1{font-size: 46px; padding-bottom: 56px;}
+.exp-inner p{padding-bottom: 12px;}
+.exp-down h5{font-size: 20px; padding: 18px 0px;}
+.progress-db{width: 90%; background: #FB7500;}
+.progress-d span{float: right; margin-right: 55px;}
+.progress-d h5{display: inline-block; margin-bottom: 20px;}
+.progress-lb{width: 90%; background: #FB7500;}
+.progress-l span{float: right; margin-right: 55px;}
+.progress-l h5{display: inline-block; margin-bottom: 20px; margin-top: 32px;}
+/*   End of experience  */
+
+/*   Start of profile  */
+.feedback{text-align: center; padding-bottom: 50px;}
+.profile-d{margin: 0px 0px; padding: 0px 0px;}
+.profile-l{margin: 0px 20px; border: 1px solid; background: rgb(150, 149, 149); padding: 40px 40px;}
+.profile-l:hover{box-shadow:10px 10px 0px 0px #FB7500;}
+/*   End of profile  */
+
+
+/*   Start of Blog  */
+.blog-t{text-align: center; margin-top: 33px;}
+.news{margin: 0px 50px;}
+.news h4:hover{color: #FB7500;}
+.news-text{padding: 18px 39px;}
+/*   End of Blog  */
+
+/* start of evanto */
+.evanto{margin: 10px 90px;}
+/* End of evanto */
+
+/*-- Start of footer Section --*/
+.footer{background: #333333; color: #fff; }
+.footer li{list-style: none;}
+.footer li a{text-decoration: none;  color: #fff; font-size: 16px; font-weight: 500; text-align: left;}
+.footer li a:hover{color: #FF9A21;}
+.footer h2{font-size: 25px; font-weight: 600;}
+.footer p{font-size: 15px; font-weight: 300;}
+.footer .container ul{padding-left: 0px;}
+.sub-footer{border-top: 1px solid rgb(145, 144, 144); text-align: center;}
+.sub-footer h1{font-size: 24px; font-weight: 400;  line-height: 120px;}
+.sub-footer span{color: #FF9A21;}
+.row{ margin: 0px 10px; padding-left: 8px;}
+.col-lg-3{margin: 30px 95px; padding: 0px;}
+/*-- Start of footer Section --*/
+
+@media(max-width:500px)
+{
+    body{overflow-x: hidden;}
+    .fb{flex-direction: column;}
+    .menud{display: none;}
+}
